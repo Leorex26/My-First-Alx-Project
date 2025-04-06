@@ -32,10 +32,10 @@ function Header() {
       <div className="hidden transition-all duration-300 items-center w-[75%] justify-between lg:w-[65%] md:flex">
 
         <div className="flex items-center space-x-8 ">
-          <Link to="/" className="hover:text-Leo transition-colors">Home</Link>
-          <Link to="/#about" className="hover:text-Leo transition-colors">About Us</Link>
-          <Link to="/#contact" className="hover:text-Leo transition-colors">Contact</Link>
-          <Link to="/#blogs" className="hover:text-Leo transition-colors">Blogs</Link>
+          <a href="/" className="hover:text-Leo transition-colors">Home</a>
+          <a href="/#about" className="hover:text-Leo transition-colors">About Us</a>
+          <a href="/#contact" className="hover:text-Leo transition-colors">Contact</a>
+          <a href="/#blogs" className="hover:text-Leo transition-colors">Blogs</a>
         </div>
         
         <div className="flex items-center space-x-4">
@@ -51,10 +51,10 @@ function Header() {
         isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}>
         <div className="flex flex-col p-4 space-y-4">
-          <Link to="/" className="hover:text-[#543EE0] transition-colors">Home</Link>
-          <Link to="#about" className="hover:text-[#543EE0] transition-colors">About Us</Link>
-          <Link to="#contact" className="hover:text-[#543EE0] transition-colors">Contact</Link>
-          <Link to="#blogs" className="hover:text-[#543EE0] transition-colors">Blogs</Link>
+          <a href="/" className="hover:text-[#543EE0] transition-colors">Home</a>
+          <a href="#about" className="hover:text-[#543EE0] transition-colors">About Us</a>
+          <a href="#contact" className="hover:text-[#543EE0] transition-colors">Contact</a>
+          <a href="#blogs" className="hover:text-[#543EE0] transition-colors">Blogs</a>
           <hr className="border-gray-200" />
 
           <button className="text-[#543EE0] hover:text-[#543EE0]/80 transition-colors">Log in</button>
